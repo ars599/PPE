@@ -1,5 +1,8 @@
-https://github.com/CLIVAR-PRP/ENSO_metrics/wiki/Install-using-conda-forge-(recommended)
+# ENSO Metrix from Yann
 
+* https://github.com/CLIVAR-PRP/ENSO_metrics/wiki/Install-using-conda-forge-(recommended)
+
+# PPE analysis and then run the ENSO Merix
 
 
 # To activate this environment, use
