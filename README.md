@@ -1,4 +1,4 @@
-# ENSO Metrix from Lynn
+# ENSO Metrix from Yann
 
 * https://github.com/CLIVAR-PRP/ENSO_metrics/wiki/Install-using-conda-forge-(recommended)
 
