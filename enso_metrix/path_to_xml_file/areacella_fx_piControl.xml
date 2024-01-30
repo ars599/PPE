@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<!DOCTYPE dataset SYSTEM "http://www-pcmdi.llnl.gov/software/cdms/cdml.dtd">
+<dataset
+	id	="none"
+	Conventions	="CF-1.7 CMIP-6.2"
+	frequency	="fx"
+	history	="2023-05-16T23:07:35Z ; CMOR rewrote data to be consistent with CMIP6, CF-1.7 CMIP-6.2 and CF standards.
+[2023-11-15 3:23:40] /scratch/p66/ars599/conda/envs/enso_metrics/bin/cdscan -x path_to_xml_file/areacella_fx_piControl.xml -f path_to_xml_file/areacella_fx_piControl_list_files"
+	institution	="CSIRO (Commonwealth Scientific and Industrial Research Organisation, Aspendale, Victoria 3195, Australia), ARCCSS (Australian Research Council Centre of Excellence for Climate System Science)"
+	cdms_filemap	="[[[areacella,lat_bnds,lon_bnds],[[-,-,-,-,-,areacella_fx_ACCESS-CM2_piControl_r1i1p3f1_gn.nc]]]]"
+	directory	="/g/data/p66/ars599/CMIP6/APP_output/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/piControl/r1i1p3f1/fx/areacella/gn/v20230517/"
+	>
+	<attr name="activity_id" datatype="String">CMIP</attr>
+	<attr name="branch_method" datatype="String">standard</attr>
+	<attr name="branch_time_in_child" datatype="Double">0.0</attr>
+	<attr name="branch_time_in_parent" datatype="Double">346615.0</attr>
+	<attr name="contact" datatype="String">access_csiro@csiro.au</attr>
+	<attr name="creation_date" datatype="String">2023-05-16T23:07:35Z</attr>
+	<attr name="data_specs_version" datatype="String">01.00.30</attr>
+	<attr name="experiment" datatype="String">pre-industrial control</attr>
+	<attr name="experiment_id" datatype="String">piControl</attr>
+	<attr name="forcing_index" datatype="Long">1</attr>
+	<attr name="further_info_url" datatype="String">https://furtherinfo.es-doc.org/CMIP6.CSIRO-ARCCSS.ACCESS-CM2.piControl.none.r1i1p3f1</attr>
+	<attr name="grid" datatype="String">native atmosphere N96 grid (144x192 latxlon)</attr>
+	<attr name="grid_label" datatype="String">gn</attr>
+	<attr name="initialization_index" datatype="Long">1</attr>
+	<attr name="institution_id" datatype="String">CSIRO-ARCCSS</attr>
+	<attr name="mip_era" datatype="String">CMIP6</attr>
+	<attr name="nominal_resolution" datatype="String">250 km</attr>
+	<attr name="notes" datatype="String">Local exp ID: bz687; Variable: areacella ([&apos;fld_s02i204&apos;])</attr>
+	<attr name="parent_activity_id" datatype="String">CMIP</attr>
+	<attr name="parent_experiment_id" datatype="String">piControl-spinup</attr>
+	<attr name="parent_mip_era" datatype="String">CMIP6</attr>
+	<attr name="parent_source_id" datatype="String">ACCESS-CM2</attr>
+	<attr name="parent_time_units" datatype="String">days since 0001-01-01</attr>
+	<attr name="parent_variant_label" datatype="String">r1i1p1f1</attr>
+	<attr name="physics_index" datatype="Long">3</attr>
+	<attr name="product" datatype="String">model-output</attr>
+	<attr name="realization_index" datatype="Long">1</attr>
+	<attr name="realm" datatype="String">atmos</attr>
+	<attr name="run_variant" datatype="String">forcing: GHG, Oz, SA, Sl, Vl, BC, OC, (GHG = CO2, N2O, CH4, CFC11, CFC12, CFC113, HCFC22, HFC125, HFC134a)</attr>
+	<attr name="source" datatype="String">ACCESS-CM2 (2019): 
+aerosol: UKCA-GLOMAP-mode
+atmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)
+atmosChem: none
+land: CABLE2.5
+landIce: none
+ocean: ACCESS-OM2 (GFDL-MOM5, tripolar primarily 1deg; 360 x 300 longitude/latitude; 50 levels; top grid cell 0-10 m)
+ocnBgchem: none
+seaIce: CICE5.1.2 (same grid as ocean)</attr>
+	<attr name="source_id" datatype="String">ACCESS-CM2</attr>
+	<attr name="source_type" datatype="String">AOGCM</attr>
+	<attr name="sub_experiment" datatype="String">none</attr>
+	<attr name="sub_experiment_id" datatype="String">none</attr>
+	<attr name="table_id" datatype="String">fx</attr>
+	<attr name="table_info" datatype="String">Creation Date:(30 April 2019) MD5:12ec21eb48eb992c2e353382c1c903b1</attr>
+	<attr name="title" datatype="String">ACCESS-CM2 output prepared for CMIP6</attr>
+	<attr name="tracking_id" datatype="String">hdl:21.14100/42b2b993-11ab-4d11-8d8f-688cd05e8320</attr>
+	<attr name="variable_id" datatype="String">areacella</attr>
+	<attr name="variant_label" datatype="String">r1i1p3f1</attr>
+	<attr name="version" datatype="String">v20230517</attr>
+	<attr name="license" datatype="String">CMIP6 model data produced by CSIRO is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment.  Further information about this data, including some limitations, can be found via the further_info_url (recorded as a global attribute in this file). The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.</attr>
+	<attr name="cmor_version" datatype="String">3.4.0</attr>
+	<axis
+		id	="bnds"
+		datatype	="Float"
+		length	="2"
+		units	=""
+		>
+		<attr name="realtopology" datatype="String">linear</attr>
+		[0. 1.]
+		</axis>
+	<axis
+		id	="lat"
+		datatype	="Double"
+		length	="144"
+		units	="degrees_north"
+		bounds	="lat_bnds"
+		axis	="Y"
+		long_name	="Latitude"
+		>
+		<attr name="standard_name" datatype="String">latitude</attr>
+		<attr name="realtopology" datatype="String">linear</attr>
+		[-89.375 -88.125 -86.875 -85.625 -84.375 -83.125 -81.875 -80.625 -79.375
+ -78.125 -76.875 -75.625 -74.375 -73.125 -71.875 -70.625 -69.375 -68.125
+ -66.875 -65.625 -64.375 -63.125 -61.875 -60.625 -59.375 -58.125 -56.875
+ -55.625 -54.375 -53.125 -51.875 -50.625 -49.375 -48.125 -46.875 -45.625
+ -44.375 -43.125 -41.875 -40.625 -39.375 -38.125 -36.875 -35.625 -34.375
+ -33.125 -31.875 -30.625 -29.375 -28.125 -26.875 -25.625 -24.375 -23.125
+ -21.875 -20.625 -19.375 -18.125 -16.875 -15.625 -14.375 -13.125 -11.875
+ -10.625  -9.375  -8.125  -6.875  -5.625  -4.375  -3.125  -1.875  -0.625
+   0.625   1.875   3.125   4.375   5.625   6.875   8.125   9.375  10.625
+  11.875  13.125  14.375  15.625  16.875  18.125  19.375  20.625  21.875
+  23.125  24.375  25.625  26.875  28.125  29.375  30.625  31.875  33.125
+  34.375  35.625  36.875  38.125  39.375  40.625  41.875  43.125  44.375
+  45.625  46.875  48.125  49.375  50.625  51.875  53.125  54.375  55.625
+  56.875  58.125  59.375  60.625  61.875  63.125  64.375  65.625  66.875
+  68.125  69.375  70.625  71.875  73.125  74.375  75.625  76.875  78.125
+  79.375  80.625  81.875  83.125  84.375  85.625  86.875  88.125  89.375]
+		</axis>
+	<axis
+		id	="lon"
+		datatype	="Double"
+		length	="192"
+		units	="degrees_east"
+		bounds	="lon_bnds"
+		axis	="X"
+		long_name	="Longitude"
+		>
+		<attr name="standard_name" datatype="String">longitude</attr>
+		<attr name="realtopology" datatype="String">circular</attr>
+		[  0.9375   2.8125   4.6875   6.5625   8.4375  10.3125  12.1875  14.0625
+  15.9375  17.8125  19.6875  21.5625  23.4375  25.3125  27.1875  29.0625
+  30.9375  32.8125  34.6875  36.5625  38.4375  40.3125  42.1875  44.0625
+  45.9375  47.8125  49.6875  51.5625  53.4375  55.3125  57.1875  59.0625
+  60.9375  62.8125  64.6875  66.5625  68.4375  70.3125  72.1875  74.0625
+  75.9375  77.8125  79.6875  81.5625  83.4375  85.3125  87.1875  89.0625
+  90.9375  92.8125  94.6875  96.5625  98.4375 100.3125 102.1875 104.0625
+ 105.9375 107.8125 109.6875 111.5625 113.4375 115.3125 117.1875 119.0625
+ 120.9375 122.8125 124.6875 126.5625 128.4375 130.3125 132.1875 134.0625
+ 135.9375 137.8125 139.6875 141.5625 143.4375 145.3125 147.1875 149.0625
+ 150.9375 152.8125 154.6875 156.5625 158.4375 160.3125 162.1875 164.0625
+ 165.9375 167.8125 169.6875 171.5625 173.4375 175.3125 177.1875 179.0625
+ 180.9375 182.8125 184.6875 186.5625 188.4375 190.3125 192.1875 194.0625
+ 195.9375 197.8125 199.6875 201.5625 203.4375 205.3125 207.1875 209.0625
+ 210.9375 212.8125 214.6875 216.5625 218.4375 220.3125 222.1875 224.0625
+ 225.9375 227.8125 229.6875 231.5625 233.4375 235.3125 237.1875 239.0625
+ 240.9375 242.8125 244.6875 246.5625 248.4375 250.3125 252.1875 254.0625
+ 255.9375 257.8125 259.6875 261.5625 263.4375 265.3125 267.1875 269.0625
+ 270.9375 272.8125 274.6875 276.5625 278.4375 280.3125 282.1875 284.0625
+ 285.9375 287.8125 289.6875 291.5625 293.4375 295.3125 297.1875 299.0625
+ 300.9375 302.8125 304.6875 306.5625 308.4375 310.3125 312.1875 314.0625
+ 315.9375 317.8125 319.6875 321.5625 323.4375 325.3125 327.1875 329.0625
+ 330.9375 332.8125 334.6875 336.5625 338.4375 340.3125 342.1875 344.0625
+ 345.9375 347.8125 349.6875 351.5625 353.4375 355.3125 357.1875 359.0625]
+		</axis>
+	<variable
+		id	="areacella"
+		datatype	="Float"
+		missing_value	="1e+20"
+		long_name	="Grid-Cell Area for Atmospheric Grid Variables"
+		units	="m2"
+		>
+		<attr name="standard_name" datatype="String">cell_area</attr>
+		<attr name="comment" datatype="String">For atmospheres with more than 1 mesh (e.g., staggered grids), report areas that apply to surface vertical fluxes of energy.</attr>
+		<attr name="cell_methods" datatype="String">area: sum</attr>
+		<attr name="_FillValue" datatype="Double">1e+20</attr>
+		<domain
+			>
+			<domElem name="lat" start="0" length="144"/>
+			<domElem name="lon" start="0" length="192"/>
+			</domain>
+		</variable>
+	<variable
+		id	="lat_bnds"
+		datatype	="Double"
+		missing_value	="1e+20"
+		>
+		<domain
+			>
+			<domElem name="lat" start="0" length="144"/>
+			<domElem name="bnds" start="0" length="2"/>
+			</domain>
+		</variable>
+	<variable
+		id	="lon_bnds"
+		datatype	="Double"
+		missing_value	="1e+20"
+		>
+		<domain
+			>
+			<domElem name="lon" start="0" length="192"/>
+			<domElem name="bnds" start="0" length="2"/>
+			</domain>
+		</variable>
+	</dataset>
